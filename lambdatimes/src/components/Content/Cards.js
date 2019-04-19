@@ -5,7 +5,7 @@ import { cardData } from '../../data';
 const Cards = props => {
   return (
     <div className="cards-container">
-      {props.cards.map(card => (
+      {props.state.cards.map(card => (
       <div>{card}</div> ))}
     </div>
    )
